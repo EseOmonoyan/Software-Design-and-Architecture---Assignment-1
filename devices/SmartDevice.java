@@ -1,7 +1,7 @@
 package devices;
 
 public interface SmartDevice {
-    String getBrand();
-    String getModel();   // "Bulb" or "Lock"
     String getBrand(); 
+    String getModel();   
+    int getUsage();      
 }
