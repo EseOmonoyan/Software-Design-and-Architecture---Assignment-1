@@ -1,4 +1,3 @@
 package devices;
-public class SmartLock {
-    
-}
+
+public interface SmartLock extends SmartDevice { }

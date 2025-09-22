@@ -1,5 +1,5 @@
 package usage;
 
-public class UsageProvider {
-    
+public interface UsageProvider {
+    int readUsage();
 }

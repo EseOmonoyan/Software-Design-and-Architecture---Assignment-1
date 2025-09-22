@@ -1,4 +1,5 @@
 package devices;
-public class SmartBulb {
+
+public interface SmartBulb extends SmartDevice { 
     
 }
