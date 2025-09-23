@@ -4,15 +4,16 @@ Summary
     (Brand A, Brand B) and uses the style of a Factory-Method to set the usage values upon creation of the objects (battery for locks, power for bulbs).
     The test file reads the valeus from a small text file to simulate a database.
 
-Repository Structure
+## Repository Structure
+
 .
-├── devices/                 - Product classes
-├── factory/                 - SmartDeviceFactory + BrandAFactory, BrandBFactory
-├── test/                    - Main.java (test file)
-├── data/                    - Optional: if you store per-brand files here
-├── device_values.txt        - test value
-├── docs/                    
-└── UML Diagram.png          - UML diagram of the design
+├── devices/ # Product classes
+├── factory/ # SmartDeviceFactory + BrandAFactory, BrandBFactory
+├── test/ # Main.java (test file)
+├── data/ # Optional: if you store per-brand files here
+├── device_values.txt # test value
+├── docs/ # Documentation
+└── UML Diagram.png # UML diagram of the design
 
 Design Overview
 
