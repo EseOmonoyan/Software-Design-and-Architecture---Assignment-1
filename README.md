@@ -1,8 +1,17 @@
 # Software-Design-and-Architecture---Assignment-1
 
----
-
 ## Design Overview
+=======
+## Repository Structure
+.
+├── devices/ # Product classes
+├── factory/ # SmartDeviceFactory + BrandAFactory, BrandBFactory
+├── test/ # Main.java (test file)
+├── data/ # Optional: if you store per-brand files here
+├── device_values.txt # test value
+├── docs/ # Documentation
+└── UML Diagram.png # UML diagram of the design
+>>>>>>> b704994776d70baf557656b8ac3fab4439e4c9db
 
 ### Patterns Used
 - **Abstract Factory**
