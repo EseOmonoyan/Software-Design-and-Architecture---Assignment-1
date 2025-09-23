@@ -1,0 +1,2 @@
+BrandA_Bulb_Power:10
+BrandB_Lock_Battery:150
