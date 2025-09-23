@@ -24,12 +24,21 @@ Patterns Used
     - Usage set after object creation that is based on the date that is read from a file.
 
 UML Diagram
-- 
+- Overview of how classes interact in our code. Found in UML Diagram.png
 Test FIle (Run)
-- Open test/Main.java
-- Click
-Test Data Format
-- 
+    VS Code
+    -   Install CodeRunner Extension
+    -   Open test/Main.java
+    -   Click Run on top right corner
+    IntelliJ
+    -   Open Main.java
+    -   Click Run
+
+Test Data Format (Left side: Device/Brand. Right side: Usage value)
+-   BrandA_Bulb_Power:20
+-   BrandB_Lock_Battery:130     
+
 Expected Output
-- 
+-   Smart Bulb with power usage: 10W
+-   Smart Lock with battery consumption: 150mAh
 
