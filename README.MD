@@ -35,3 +35,10 @@
 ## Test Data Format
 *(Left side: Device/Brand. Right side: Usage value)*
 
+
+---
+
+## Expected Output
+- Smart Bulb with power usage: 10W
+- Smart Lock with battery consumption: 150mAh
+
