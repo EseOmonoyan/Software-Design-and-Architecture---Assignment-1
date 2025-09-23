@@ -5,7 +5,6 @@ Summary
     The test file reads the valeus from a small text file to simulate a database.
 
 ## Repository Structure
-
 .
 ├── devices/ # Product classes
 ├── factory/ # SmartDeviceFactory + BrandAFactory, BrandBFactory
