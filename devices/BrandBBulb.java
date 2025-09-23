@@ -6,10 +6,10 @@ import java.nio.file.Path;
 
 
 public class BrandBBulb extends BaseSmartDevice implements SmartBulb{
-    super(brand, "Bulb");
     
     private final Path dataRoot;
     public BroadBBulb(String brand, Path dataRoot) {
+        super(brand, "Bulb");
         this.dataRoot = dataRoot;
     }
     protected UsageProvider makeUsageProvider() {
